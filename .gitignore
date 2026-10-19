@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DuckDB artifacts regenerate with python sql/run_mart.py
+# (the committed .duckdb is kept so the mart is inspectable on GitHub)
