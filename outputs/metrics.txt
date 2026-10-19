@@ -1,0 +1,10 @@
+Retail sales forecast — holdout accuracy (90 days, synthetic data)
+===============================================================
+Model: Holt-Winters additive trend + additive weekly seasonality
+Train: 2024-01-02 → 2025-10-02 (640 days)
+Test : 2025-10-03 → 2025-12-31 (90 days)
+Residual std (in-sample): 6,148
+
+MAE : 45,334
+RMSE: 55,894
+MAPE: 22.31%
